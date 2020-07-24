@@ -393,7 +393,7 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba($base-color-hover, 0.7);
+    background: rgba($base-color-hover, 0.6);
     z-index: 1;
 }
 
@@ -744,6 +744,11 @@ footer {
       width:70%;
       margin:auto;
       text-align: center;
+    }
+
+    li{
+      display:table;
+      margin: 0px auto 0px auto;
     }
 }
 
