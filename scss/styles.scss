@@ -365,7 +365,7 @@ footer {
     text-align: center;
 
     h1, h2 {
-        margin: 0;
+        margin: 5px;
     }
 
     h1 {
@@ -378,7 +378,7 @@ footer {
     }
 
     h2 {
-        color: lighten($base-color, 25%);
+        color: lighten($base-color, 10%);
         font-weight: 500;
         font-size: 2.25em;
         margin-bottom: 15px;
@@ -741,14 +741,13 @@ footer {
     }
 
     ul {
-      width:70%;
+      width:80%;
       margin:auto;
       text-align: center;
     }
 
     li{
-      display:table;
-      margin: 0px auto 0px auto;
+      display: inline-block;
     }
 }
 
@@ -900,10 +899,12 @@ footer {
 
         h1 {
             font-size: 3em;
+            margin-bottom: 5px;
         }
 
         h2 {
             font-size: 1.75em;
+            margin-bottom: 5px;
         }
     }
 
