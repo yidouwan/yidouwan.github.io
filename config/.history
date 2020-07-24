@@ -1,0 +1,8 @@
+node - v
+npm -v
+npm install gulp-cli -g
+gulp -v
+npm init
+clear
+npm intall --save-dev gulp gulp-sass browser-sync
+gulp style
