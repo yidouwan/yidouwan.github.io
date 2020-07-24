@@ -739,18 +739,10 @@ footer {
         color: #fff;
         font-weight: 500;
     }
-
     ul {
-      overflow-y: auto;
-      box-shadow: none;
-      border-radius: 0;
-      width: 100%;
+      margin-right: auto;
+      margin-left: auto;
     }
-
-      li {
-          display: block;
-          margin-bottom: 10px;
-      }
 
 }
 
