@@ -741,11 +741,18 @@ footer {
     }
 
     ul {
-      width:100%;
+      display: inline-block;
       margin:auto;
+      text-align: center;
+    }
+
+    ul li {
+      display:block;
+      position: relative;
     }
 
 }
+
 
 
 /*
