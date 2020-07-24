@@ -5,4 +5,6 @@ gulp -v
 npm init
 clear
 npm intall --save-dev gulp gulp-sass browser-sync
+npm install -save-dev gulp-plumber
 gulp style
+gulp styles
