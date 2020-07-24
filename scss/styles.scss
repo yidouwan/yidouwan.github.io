@@ -741,15 +741,16 @@ footer {
     }
 
     ul {
-      display: inline-block;
-      margin: 0 0 15px 0;
-      text-align: center;
+      overflow-y: auto;
+      box-shadow: none;
+      border-radius: 0;
+      width: 100%;
     }
 
-    ul li {
-      display:block;
-      position: 50%;
-    }
+      li {
+          display: block;
+          margin-bottom: 10px;
+      }
 
 }
 
