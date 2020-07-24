@@ -737,7 +737,10 @@ footer {
     h2 {
         margin: 0 0 15px 0;
         color: #fff;
-        font-weight: 500;
+        font-weight: 600;
+    }
+    h3 {
+      font-weight: 500;
     }
     ul {
       margin-right: auto;
@@ -745,7 +748,7 @@ footer {
     }
     li {
         display: inline-block;
-        padding: 25px;
+        padding: 30px;
     }
 
 }
